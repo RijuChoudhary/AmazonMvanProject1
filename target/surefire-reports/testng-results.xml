@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[browser is lauched]]>
+    </line>
+    <line>
+      <![CDATA[username is entered]]>
+    </line>
+    <line>
+      <![CDATA[password is entered]]>
+    </line>
+    <line>
+      <![CDATA[login is successful]]>
+    </line>
+    <line>
+      <![CDATA[product search is sucessful]]>
+    </line>
+    <line>
+      <![CDATA[browser is lauched]]>
+    </line>
+    <line>
+      <![CDATA[username is entered]]>
+    </line>
+    <line>
+      <![CDATA[password is entered]]>
+    </line>
+    <line>
+      <![CDATA[login is successful]]>
+    </line>
+    <line>
+      <![CDATA[browser is lauched]]>
+    </line>
+    <line>
+      <![CDATA[username is entered]]>
+    </line>
+    <line>
+      <![CDATA[password is entered]]>
+    </line>
+    <line>
+      <![CDATA[login is successful]]>
+    </line>
+    <line>
+      <![CDATA[product search is sucessful]]>
+    </line>
+    <line>
+      <![CDATA[browser is lauched]]>
+    </line>
+    <line>
+      <![CDATA[username is entered]]>
+    </line>
+    <line>
+      <![CDATA[password is entered]]>
+    </line>
+    <line>
+      <![CDATA[login is successful]]>
+    </line>
+    <line>
+      <![CDATA[product search is sucessful]]>
+    </line>
+    <line>
+      <![CDATA[signout is successful]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-02-16T14:47:33 IST" name="system suite" finished-at="2026-02-16T14:50:45 IST" duration-ms="191973">
+    <groups>
+    </groups>
+    <test started-at="2026-02-16T14:47:33 IST" name="Testing on chrome" finished-at="2026-02-16T14:50:45 IST" duration-ms="191973">
+      <class name="amazon.TestCase3_Logintoamazonaandlogout">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:amazon.TestCase3_Logintoamazonaandlogout@c8c12ac]" started-at="2026-02-16T14:48:34 IST" name="browserlaunch" finished-at="2026-02-16T14:48:38 IST" duration-ms="4202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method retried="true" signature="logout()[pri:0, instance:amazon.TestCase3_Logintoamazonaandlogout@c8c12ac]" started-at="2026-02-16T14:48:38 IST" name="logout" finished-at="2026-02-16T14:49:28 IST" duration-ms="49935" status="SKIP">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: MicrosoftEdge=144.0.3719.115)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a87d005884c59bbf18512864959b1151, clickElement {id=f.28131E2A3E91D2FCB2A3DF853637D23C.d.1626DC7BCFF807C73A20F6DF048DF001.e.606}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 144.0.3719.115, fedcm:accounts: true, goog:processID: 29808, ms:edgeOptions: {debuggerAddress: localhost:49358}, msedge: {msedgedriverVersion: 144.0.3719.130 (897347d4ca3..., userDataDir: C:\Users\rijuc\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49358/devtoo..., se:cdpVersion: 144.0.3719.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (a87d005884c59bbf18512864959b1151)] -> xpath: //span[text()='Sign Out']]
+Session ID: a87d005884c59bbf18512864959b1151]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=144.0.3719.115)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a87d005884c59bbf18512864959b1151, clickElement {id=f.28131E2A3E91D2FCB2A3DF853637D23C.d.1626DC7BCFF807C73A20F6DF048DF001.e.606}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 144.0.3719.115, fedcm:accounts: true, goog:processID: 29808, ms:edgeOptions: {debuggerAddress: localhost:49358}, msedge: {msedgedriverVersion: 144.0.3719.130 (897347d4ca3..., userDataDir: C:\Users\rijuc\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49358/devtoo..., se:cdpVersion: 144.0.3719.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (a87d005884c59bbf18512864959b1151)] -> xpath: //span[text()='Sign Out']]
+Session ID: a87d005884c59bbf18512864959b1151
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at amazon.HomePage.signingout(HomePage.java:51)
+at amazon.TestCase3_Logintoamazonaandlogout.logout(TestCase3_Logintoamazonaandlogout.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[browser is lauched]]>
+            </line>
+            <line>
+              <![CDATA[username is entered]]>
+            </line>
+            <line>
+              <![CDATA[password is entered]]>
+            </line>
+            <line>
+              <![CDATA[login is successful]]>
+            </line>
+            <line>
+              <![CDATA[product search is sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:amazon.TestCase3_Logintoamazonaandlogout@c8c12ac]" started-at="2026-02-16T14:49:28 IST" name="browserquit" finished-at="2026-02-16T14:49:32 IST" duration-ms="3548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:amazon.TestCase3_Logintoamazonaandlogout@c8c12ac]" started-at="2026-02-16T14:49:32 IST" name="browserlaunch" finished-at="2026-02-16T14:49:40 IST" duration-ms="8296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="logout()[pri:0, instance:amazon.TestCase3_Logintoamazonaandlogout@c8c12ac]" started-at="2026-02-16T14:49:40 IST" name="logout" finished-at="2026-02-16T14:50:42 IST" duration-ms="61306" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser is lauched]]>
+            </line>
+            <line>
+              <![CDATA[username is entered]]>
+            </line>
+            <line>
+              <![CDATA[password is entered]]>
+            </line>
+            <line>
+              <![CDATA[login is successful]]>
+            </line>
+            <line>
+              <![CDATA[product search is sucessful]]>
+            </line>
+            <line>
+              <![CDATA[signout is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:amazon.TestCase3_Logintoamazonaandlogout@c8c12ac]" started-at="2026-02-16T14:50:42 IST" name="browserquit" finished-at="2026-02-16T14:50:45 IST" duration-ms="3446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- amazon.TestCase3_Logintoamazonaandlogout -->
+      <class name="amazon.Testcase1_LogintoAmazon">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:amazon.Testcase1_LogintoAmazon@1623b78d]" started-at="2026-02-16T14:48:18 IST" name="browserlaunch" finished-at="2026-02-16T14:48:21 IST" duration-ms="3569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="withvalidcredential()[pri:0, instance:amazon.Testcase1_LogintoAmazon@1623b78d]" started-at="2026-02-16T14:48:21 IST" name="withvalidcredential" finished-at="2026-02-16T14:48:31 IST" duration-ms="9332" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser is lauched]]>
+            </line>
+            <line>
+              <![CDATA[username is entered]]>
+            </line>
+            <line>
+              <![CDATA[password is entered]]>
+            </line>
+            <line>
+              <![CDATA[login is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- withvalidcredential -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:amazon.Testcase1_LogintoAmazon@1623b78d]" started-at="2026-02-16T14:48:31 IST" name="browserquit" finished-at="2026-02-16T14:48:34 IST" duration-ms="3326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- amazon.Testcase1_LogintoAmazon -->
+      <class name="amazon.TestCase2_Logintoamazonandsearch">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:amazon.TestCase2_Logintoamazonandsearch@694abbdc]" started-at="2026-02-16T14:47:33 IST" name="browserlaunch" finished-at="2026-02-16T14:47:46 IST" duration-ms="12791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="search()[pri:0, instance:amazon.TestCase2_Logintoamazonandsearch@694abbdc]" started-at="2026-02-16T14:47:46 IST" name="search" finished-at="2026-02-16T14:48:12 IST" duration-ms="25531" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser is lauched]]>
+            </line>
+            <line>
+              <![CDATA[username is entered]]>
+            </line>
+            <line>
+              <![CDATA[password is entered]]>
+            </line>
+            <line>
+              <![CDATA[login is successful]]>
+            </line>
+            <line>
+              <![CDATA[product search is sucessful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:amazon.TestCase2_Logintoamazonandsearch@694abbdc]" started-at="2026-02-16T14:48:14 IST" name="browserquit" finished-at="2026-02-16T14:48:18 IST" duration-ms="3492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- amazon.TestCase2_Logintoamazonandsearch -->
+    </test> <!-- Testing on chrome -->
+  </suite> <!-- system suite -->
+</testng-results>
