@@ -25,13 +25,16 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+
+     
+
     
    
     <!-- TestNG -->
     <dependency>
         <groupId>org.testng</groupId>
         <artifactId>testng</artifactId>
-        <version>7.9.0</version>
+        <version>7.10.0</version>
         <scope>test</scope>
     </dependency>
 
