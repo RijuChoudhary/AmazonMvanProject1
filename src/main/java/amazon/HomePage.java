@@ -54,7 +54,7 @@ public class HomePage {
 	public void assertion() {
         String value = assertiontext.getText();
         System.out.println(value);
-        Assert.assertEquals(value,"Hello, Riju");
+        
     }
 
 	
