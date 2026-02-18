@@ -9,7 +9,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
-public class BaseClass extends ListenersLogic{
+public class BaseClass extends ListenersLogic {
 	
 	
 	@Parameters("browsername")
@@ -35,7 +35,7 @@ public class BaseClass extends ListenersLogic{
        driver.get("https://www.amazon.in/");
        driver.manage().window().maximize();
 		Thread.sleep(3000);
-    driver.findElement(By.xpath("//button[text()='Continue shopping']")).click();
+       driver.findElement(By.xpath("//button[text()='Continue shopping']")).click();
 		
 	}
 	
