@@ -1,6 +1,5 @@
 package amazon;
 
-import static org.testng.Assert.assertEquals;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
