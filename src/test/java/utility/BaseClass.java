@@ -9,13 +9,13 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
-public class BaseClass extends ListenersLogic throws InterruptedException{
+public class BaseClass extends ListenersLogic{
 	
 	
 	@Parameters("browsername")
 	
 	@BeforeMethod
-	public void browserlaunch(String whichBrowser) {
+	public void browserlaunch(String whichBrowser) throws InterruptedException {
 		if(whichBrowser.equals("chrome")) {
 			driver=new ChromeDriver();
 			
